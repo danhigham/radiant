@@ -1,7 +1,8 @@
 require 'rubygems'
 require 'rake/testtask'
 require 'rdoc/task'
-require 'rake/gempackagetask'
+# require 'rake/gempackagetask'
+require 'gem/packagetask'
 require 'radiant'
 
 PKG_NAME = 'radiant'
